@@ -1,0 +1,22 @@
+[
+    {
+        "portfolio_code": "Portfolio Code",
+        "date": "Date",
+        "security_code": "Security Code",
+        "strategy_type_name": "Strategy Type Name",
+        "reference": "Reference",
+        "quantity": "Quantity",
+        "clean_price": "Clean Price - Local Currency",
+        "dirty_price": "Dirty Price - Local Currency",
+        "exchange_rate": "Exchange Rate - Local to Base",
+        "dirty_market_value_base": "Dirty Market Value - Base",
+        "dirty_market_value_local": "Dirty Market Value - Local",
+        "accrued_interest_base": "Accrued Interest - Base",
+        "accrued_interest_local": "Accrued Interest - Local",
+        "exposure_base": "Exposure - Base",
+        "exposure_local": "Exposure - Local",
+        "dirty_book_value_base": "Dirty Book Value - Base",
+        "dirty_book_value_local": "Dirty Book Value - Local",
+        "price_date": "Price Date"
+    }
+]

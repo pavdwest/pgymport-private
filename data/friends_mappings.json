@@ -1,0 +1,39 @@
+[
+    {
+        "source_fieldname": "person name",
+        "target_fieldname": "name",
+        "datatype": "varchar(256)",
+        "required": "true"
+    },
+    {
+        "source_fieldname": "FamilyName",
+        "target_fieldname": "surname",
+        "datatype": "varchar(256)",
+        "required": "true"
+    },
+    {
+        "source_fieldname": "Progress",
+        "target_fieldname": "level",
+        "datatype": "integer",
+        "required": "false"
+    },
+    {
+        "source_fieldname": "born on",
+        "target_fieldname": "dob",
+        "datatype": "datetime",
+        "required": "true"
+    },
+    {
+        "source_fieldname": "score",
+        "target_fieldname": "result",
+        "datatype": "double precision",
+        "required": "false"
+    },
+    {
+        "source_fieldname": "comment",
+        "target_fieldname": "comment",
+        "datatype": "varchar(1024)",
+        "required": "false"
+    }
+
+]

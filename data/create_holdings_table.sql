@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS holdings (
+    "id"                        BIGSERIAL PRIMARY KEY NOT NULL,
+    "portfolio_code"            varchar(256) NOT NULL,
+    "date"                      varchar(256) NOT NULL,
+    "security_code"             varchar(256) NOT NULL,
+    "strategy_type_name"        varchar(256),
+    "reference"                 varchar(256),
+    "quantity"                  double precision,
+    "clean_price"               double precision,
+    "dirty_price"               double precision,
+    "exchange_rate"             double precision,
+    "dirty_market_value_base"   double precision NOT NULL,
+    "dirty_market_value_local"  double precision,
+    "accrued_interest_base"     double precision,
+    "accrued_interest_local"    double precision,
+    "exposure_base"             double precision,
+    "exposure_local"            double precision,
+    "dirty_book_value_base"     double precision,
+    "dirty_book_value_local"    double precision,
+    "price_date"                date
+);
